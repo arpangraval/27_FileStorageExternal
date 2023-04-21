@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" android:layout_margin="10dp">
+
+    <EditText
+        android:id="@+id/filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="File Name"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/filedata"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:hint="File Data"
+        android:inputType="textMultiLine"
+        tools:ignore="SpeakableTextPresentCheck" />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="SAVE"
+    android:id="@+id/btnSave"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW"
+        android:id="@+id/btnShow"/>
+</LinearLayout>
